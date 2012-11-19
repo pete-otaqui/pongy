@@ -1,0 +1,30 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#game {
+    width: 200px;
+    height: 200px;
+    background: black;
+    color: white;
+    position: relative;
+}
+
+#game .player {
+    width: 10px;
+    height: 180px;
+    position: absolute;
+    top: 10px;
+}
+#game .player-left {
+    left: 10px;
+    background: red;
+}
+#game .player-right {
+    right: 10px;
+    background: blue;
+}
